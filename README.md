@@ -1,5 +1,5 @@
-# Code of MP-Inspector
-Implementation of the paper "**MP-Inspector: Quantifying Model Privacy Risks from An Attack-Agnostic Perspective**".
+# Code of MER-Inspector
+Implementation of the paper "**MER-Inspector: Assessing Model Extraction Risks from An Attack-Agnostic Perspective**." (WWW 2025)
 We implement this project with reference to the implementation of [MAZE](https://github.com/sanjaykariyappa/MAZE).
 
 ## Environment
@@ -20,4 +20,15 @@ python attacker.py --dataset=cifar10 --dataset_sur=cifar10 --epochs=100 --model_
 ## Computer metric
 ```
 python Risk/Metrics.py --dataset=cifar10  --model_tgt=res20_2
+```
+
+## Citation
+```
+@inproceedings{zhang2025merinspector,
+  author    = {Xinwei Zhang and Haibo Hu and Qingqing Ye and Li Bai and Huadi Zheng},
+  title     = {MER-Inspector: Assessing Model Extraction Risks from an Attack-Agnostic Perspective},
+  booktitle = {Proceedings of the ACM TheWebConference (WWW)},
+  year      = {2025},
+  publisher = {ACM}
+}
 ```
